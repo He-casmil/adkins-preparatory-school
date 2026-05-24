@@ -25,6 +25,8 @@ You can publish this site with GitHub Pages or any static site host.
 1. Create a Netlify account.
 2. Connect your GitHub repository.
 3. Deploy the site as a static project.
+4. For this site, use build command: *(leave blank)* and publish directory: `./`
+5. Your live site is available at a generated Netlify domain like `https://zesty-fenglisu-5b0ad1.netlify.app`.
 
 ### Local Preview
 Open `index.html` in your browser or use a local web server.

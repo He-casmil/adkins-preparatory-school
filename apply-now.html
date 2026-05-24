@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Apply now to Adkins Preparatory School and start your admission journey with our supportive team." />
   <title>Apply Now | Adkins Preparatory School</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -34,16 +35,18 @@
     </section>
 
     <section class="application-form">
-      <form>
+      <form name="application" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="application" />
+        <p class="hidden"><label>Don’t fill this out if you’re human:<input name="bot-field" /></label></p>
         <div class="form-grid">
-          <label>Student Name<input type="text" placeholder="Student full name" required /></label>
-          <label>Grade Applying For<input type="text" placeholder="Grade level" required /></label>
-          <label>Parent/Guardian Name<input type="text" placeholder="Parent or guardian" required /></label>
-          <label>Email Address<input type="email" placeholder="you@example.com" required /></label>
-          <label>Phone Number<input type="tel" placeholder="(555) 123-4567" required /></label>
+          <label>Student Name<input type="text" name="student-name" placeholder="Student full name" required /></label>
+          <label>Grade Applying For<input type="text" name="grade" placeholder="Grade level" required /></label>
+          <label>Parent/Guardian Name<input type="text" name="parent-name" placeholder="Parent or guardian" required /></label>
+          <label>Email Address<input type="email" name="email" placeholder="you@example.com" required /></label>
+          <label>Phone Number<input type="tel" name="phone" placeholder="(555) 123-4567" required /></label>
         </div>
-        <label>Current School<input type="text" placeholder="Current school name" /></label>
-        <label>Tell Us About Your Student<textarea rows="5" placeholder="Share strengths, interests, and goals"></textarea></label>
+        <label>Current School<input type="text" name="current-school" placeholder="Current school name" /></label>
+        <label>Tell Us About Your Student<textarea name="student-details" rows="5" placeholder="Share strengths, interests, and goals"></textarea></label>
         <button class="button" type="submit">Submit Application</button>
       </form>
     </section>
