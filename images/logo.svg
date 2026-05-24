@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2358" />
+      <stop offset="100%" stop-color="#0747a6" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="120" rx="24" fill="none" />
+  <path d="M44 32h52l-26 20-26-20z" fill="#0f2358" />
+  <path d="M44 32v32l26-20 26 20V32" fill="#eef5ff" />
+  <path d="M34 68h68v16H34z" fill="#0747a6" opacity="0.9" />
+  <path d="M75 17l18 14 18-14 8 11-26 20-26-20 8-11z" fill="#0747a6" />
+  <path d="M75 30h36v4H75z" fill="#eef5ff" />
+  <text x="108" y="48" font-family="Inter, sans-serif" font-size="22" font-weight="700" fill="#0f2358">Adkins</text>
+  <text x="108" y="72" font-family="Inter, sans-serif" font-size="13" fill="#0747a6">Preparatory School</text>
+  <text x="108" y="92" font-family="Inter, sans-serif" font-size="11" fill="#5d6b8e">Excellence is our commitment</text>
+</svg>
