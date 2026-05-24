@@ -8,7 +8,8 @@
       <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0f2358" flood-opacity="0.18" />
     </filter>
   </defs>
-  <rect x="10" y="10" width="300" height="140" rx="24" fill="#fff" stroke="#dbe9ff" stroke-width="2" filter="url(#shadow)" />
+  <rect x="10" y="10" width="300" height="140" rx="24" fill="#fff" stroke="#0f2358" stroke-width="4" filter="url(#shadow)" />
+  <rect x="16" y="16" width="288" height="128" rx="20" fill="none" stroke="#eaf2ff" stroke-width="2" />
   <path d="M90 40L160 22L230 40V97L160 118L90 97Z" fill="url(#logoGrad)" />
   <path d="M160 22L230 40L160 57L90 40L160 22Z" fill="#eef5ff" opacity="0.95" />
   <path d="M140 75L160 85L180 75V56L160 50L140 56V75Z" fill="#fff" opacity="0.9" />
