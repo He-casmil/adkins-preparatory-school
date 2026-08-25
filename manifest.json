@@ -1,0 +1,15 @@
+{
+  "name": "Adkins Preparatory School",
+  "short_name": "AdkinsPrep",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1651b9",
+  "icons": [
+    {
+      "src": "images/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

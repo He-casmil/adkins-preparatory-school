@@ -4,34 +4,66 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Find out how to apply to Adkins Preparatory School and learn about our admission process and student support." />
+  <!-- Favicons & PWA -->
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="images/logo.svg" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#1651b9" />
+  <!-- Social / SEO -->
+  <meta property="og:title" content="Admission | Adkins Preparatory School" />
+  <meta property="og:description" content="Find out how to apply to Adkins Preparatory School and learn about our admission process and student support." />
+  <meta property="og:image" content="images/istockphoto-1423100536-612x612.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Admission | Adkins Preparatory School" />
+  <meta name="twitter:description" content="Find out how to apply to Adkins Preparatory School and learn about our admission process and student support." />
+  <meta name="twitter:image" content="images/istockphoto-1423100536-612x612.jpg" />
   <title>Admission | Adkins Preparatory School</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body data-page="admission">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="page-header">
     <div class="container header-inner">
       <a class="brand" href="index.html">
         <img src="images/logo.svg" alt="Adkins Preparatory logo" class="logo" />
         Adkins Preparatory
       </a>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
-      <nav class="site-nav" id="siteNav">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
         <a href="index.html">Home</a>
+        <a href="news-events.html">News & Events</a>
         <a href="about.html">About</a>
         <a href="academics.html">Academics</a>
-        <a href="admission.html">Admission</a>
-        <a href="news-events.html">News & Events</a>
+        <a href="school-life.html">School Life</a>
+        <a href="admission.html">Admissions</a>
+        <a href="gallery.html">Gallery</a>
         <a href="contact.html">Contact</a>
-        <a class="button button-alt" href="apply-now.html">Apply Now</a>
       </nav>
     </div>
   </header>
 
-  <main class="container page-content">
+  <main id="main-content" class="container page-content">
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-logo">
+          <img src="images/logo.svg" alt="Adkins Preparatory logo" />
+        </div>
+        <p class="eyebrow" data-cms="hero.eyebrow">Apply today</p>
+        <h1 data-cms="hero.heading">Choose a school that helps children grow well</h1>
+        <p class="hero-copy" data-cms="hero.description">We welcome families who value nurturing teachers, disciplined learning, good manners, and steady growth in confidence and responsibility.</p>
+        <div class="hero-actions">
+          <a class="button" href="apply-now.html" data-cms="hero.primaryCta">Apply Now</a>
+          <a class="button button-alt" href="contact.html" data-cms="hero.secondaryCta">Contact Admissions</a>
+        </div>
+      </div>
+    </section>
+
     <section class="page-intro">
-      <p class="eyebrow">Apply today</p>
-      <h1>Admission Process</h1>
-      <p>Becoming a student at Adkins Preparatory School is simple and welcoming. We review each application thoughtfully and invite families to join our community.</p>
+      <div class="intro-copy">
+        <h2 data-cms="intro.heading">A clear beginning for your family</h2>
+        <p data-cms="intro.text">Our admissions team makes the process personal and straightforward, helping you understand the right learning stage, daily expectations, and next steps.</p>
+      </div>
     </section>
 
     <section class="admission-steps">
@@ -55,9 +87,10 @@
 
     <section class="feature-section blue-block">
       <h2>Admission Eligibility</h2>
-      <p>We welcome students who are ready to learn, grow, and contribute to a positive school community. Our admission team supports families through each step.</p>
+      <p>We welcome families who want children to be known, nurtured, challenged, and guided toward responsibility. Our admissions team supports families through each step.</p>
       <ul>
-        <li>Pre-K through Grade 12 enrollment</li>
+        <li>Lower Primary enrollment (ages 5-7)</li>
+        <li>Upper Primary enrollment (ages 8-12)</li>
         <li>Academic readiness review</li>
         <li>Personal interview or parent meeting</li>
         <li>Financial aid guidance available</li>

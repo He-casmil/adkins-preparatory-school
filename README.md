@@ -28,5 +28,17 @@ You can publish this site with GitHub Pages or any static site host.
 4. For this site, use build command: *(leave blank)* and publish directory: `./`
 5. Your live site is available at a generated Netlify domain like `https://zesty-fenglisu-5b0ad1.netlify.app`.
 
+### Content Management
+
+This site is now CMS-ready using Netlify CMS.
+
+- Open `/admin/index.html` in the browser after deployment.
+- Update `admin/config.yml` and replace `YOUR_GITHUB_USERNAME/REPO_NAME` with your repository path.
+- The CMS manages page content stored under `content/pages/*.json`.
+- Edit the hero text, intro sections, and page metadata from the Netlify CMS interface.
+
 ### Local Preview
+
 Open `index.html` in your browser or use a local web server.
+
+

@@ -1,0 +1,36 @@
+{
+  "schoolName": "Adkins Preparatory School",
+  "motto": "Where children grow in confidence and responsibility",
+  "principalMessage": "Welcome to Adkins Preparatory School. We are committed to nurturing caring, confident, and responsible young learners. Our approach combines warm relationships with high academic standards, creating an environment where every child can flourish.",
+  "facilities": [
+    {
+      "name": "Modern Classrooms",
+      "description": "Bright, well-equipped learning spaces designed for collaborative and individual work, with interactive whiteboards and age-appropriate learning resources."
+    },
+    {
+      "name": "Sports & Recreation",
+      "description": "Dedicated sports hall, outdoor playground, and fields for football, netball, athletics, and other team sports activities."
+    },
+    {
+      "name": "Arts & Music Studio",
+      "description": "Fully equipped studio for visual arts, drama, and music with instruments, art supplies, and performance spaces."
+    },
+    {
+      "name": "Library & Reading Corner",
+      "description": "Extensive book collection organized by reading level, quiet reading areas, and digital resources for research and learning."
+    },
+    {
+      "name": "Science & Technology Lab",
+      "description": "Laboratory equipped for hands-on science investigations, technology projects, and STEM-focused learning activities."
+    },
+    {
+      "name": "Community Spaces",
+      "description": "Assembly hall, dining area, and common spaces designed for whole-school gatherings, performances, and community events."
+    }
+  ],
+  "contact": {
+    "phone": "+44 (0) 20 XXXX XXXX",
+    "email": "info@adkinsprep.co.uk",
+    "address": "123 School Road, London, England, EC1A 1BB"
+  }
+}

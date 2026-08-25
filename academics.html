@@ -3,64 +3,96 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Discover Adkins Preparatory School’s academic programs, STEM learning, arts, and leadership development." />
+  <meta name="description" content="Discover Adkins Preparatory School's Lower Primary and Upper Primary academic programs." />
+  <!-- Favicons & PWA -->
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="images/logo.svg" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#1651b9" />
+  <!-- Social / SEO -->
+  <meta property="og:title" content="Academics | Adkins Preparatory School" />
+  <meta property="og:description" content="Discover Adkins Preparatory School's Lower Primary and Upper Primary academic programs." />
+  <meta property="og:image" content="images/istockphoto-1222693588-612x612.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Academics | Adkins Preparatory School" />
+  <meta name="twitter:description" content="Discover Adkins Preparatory School's Lower Primary and Upper Primary academic programs." />
+  <meta name="twitter:image" content="images/istockphoto-1222693588-612x612.jpg" />
   <title>Academics | Adkins Preparatory School</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body data-page="academics">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="page-header">
     <div class="container header-inner">
       <a class="brand" href="index.html">
         <img src="images/logo.svg" alt="Adkins Preparatory logo" class="logo" />
         Adkins Preparatory
       </a>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
-      <nav class="site-nav" id="siteNav">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
         <a href="index.html">Home</a>
+        <a href="news-events.html">News & Events</a>
         <a href="about.html">About</a>
         <a href="academics.html">Academics</a>
-        <a href="admission.html">Admission</a>
-        <a href="news-events.html">News & Events</a>
+        <a href="school-life.html">School Life</a>
+        <a href="admission.html">Admissions</a>
+        <a href="gallery.html">Gallery</a>
         <a href="contact.html">Contact</a>
-        <a class="button button-alt" href="apply-now.html">Apply Now</a>
       </nav>
     </div>
   </header>
 
-  <main class="container page-content">
+  <main id="main-content" class="container page-content">
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-logo">
+          <img src="images/logo.svg" alt="Adkins Preparatory logo" />
+        </div>
+        <p class="eyebrow" data-cms="hero.eyebrow">Academic excellence</p>
+        <h1 data-cms="hero.heading">Learning with purpose and discipline</h1>
+        <p class="hero-copy" data-cms="hero.description">Our two learning stages give children a strong foundation, clear expectations, and the support to become focused, capable, and responsible learners.</p>
+        <div class="hero-actions">
+          <a class="button" href="contact.html" data-cms="hero.primaryCta">Explore Courses</a>
+          <a class="button button-alt" href="about.html" data-cms="hero.secondaryCta">Meet the Faculty</a>
+        </div>
+      </div>
+    </section>
+
     <section class="page-intro">
-      <p class="eyebrow">Academic excellence</p>
-      <h1>Academics at Adkins</h1>
-      <p>Our academic programs are built to challenge curious minds, support individual goals, and develop lifelong learning. Students experience a rich curriculum that balances knowledge, creativity, and real-world skills.</p>
+      <div class="intro-copy">
+        <h2 data-cms="intro.heading">Progress children can feel</h2>
+        <p data-cms="intro.text">Lower Primary builds early language, number sense, confidence, and curiosity. Upper Primary develops deeper knowledge, strong study habits, creative thinking, and responsibility.</p>
+      </div>
     </section>
 
     <section class="program-grid">
       <article>
-        <h2>Core Subjects</h2>
-        <p>Strong instruction in English, mathematics, science, and social studies prepares students for college and career readiness.</p>
+        <h2>Lower Primary: Building Foundations</h2>
+        <p>Young learners develop strong literacy and numeracy skills through play, exploration, storytelling, and hands-on activities. We build confidence, curiosity, and love of learning.</p>
       </article>
       <article>
-        <h2>STEM & Innovation</h2>
-        <p>Hands-on science labs, technology projects, and math exploration keep students engaged and inventive.</p>
+        <h2>Upper Primary: Deepening Knowledge</h2>
+        <p>Older learners engage with rich curriculum across language, mathematics, science, humanities, arts, and physical education. We emphasize understanding, critical thinking, and application.</p>
       </article>
       <article>
-        <h2>Arts & Languages</h2>
-        <p>Visual arts, music, drama, and language learning expand creativity and global awareness.</p>
+        <h2>Personalized Learning</h2>
+        <p>Every child receives individual attention and support. Teachers use assessment to guide instruction and provide enrichment or extra support as needed.</p>
       </article>
       <article>
-        <h2>Leadership & Life Skills</h2>
-        <p>Clubs, service projects, and advisory support help students grow as responsible and confident leaders.</p>
+        <h2>Learning Environment</h2>
+        <p>Our classrooms are welcoming spaces that encourage exploration, creativity, collaboration, and active engagement in learning.</p>
       </article>
     </section>
 
     <section class="feature-section">
       <div>
         <h2>Personalized Learning</h2>
-        <p>Each learner receives guidance from teachers who know their strengths and goals. Our approach includes formative assessment, targeted support, and enrichment opportunities.</p>
+        <p>Each learner receives targeted guidance based on their individual needs and progress. We teach not just academic content, but also how to learn effectively, work collaboratively, and persist through challenges.</p>
       </div>
       <div>
         <h2>Guidance & Support</h2>
-        <p>Academic counseling, tutoring, and college planning services help students stay on track and discover the next step after graduation.</p>
+        <p>Teachers provide encouragement, targeted support, and enrichment while helping learners become increasingly independent and accountable for their choices.</p>
       </div>
     </section>
   </main>

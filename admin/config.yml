@@ -1,0 +1,91 @@
+  - name: "gallery"
+    label: "Photo Gallery"
+    folder: "content/gallery"
+    create: true
+    extension: "json"
+    format: "json"
+    fields:
+      - { label: "Album name", name: "albumName", widget: "string" }
+      - { label: "Album category", name: "albumCategory", widget: "select", options: ["Classroom Learning", "Sports Day", "Arts & Music", "School Trips", "Community Events", "Everyday Moments"] }
+      - { label: "Album description", name: "description", widget: "text" }
+      - { label: "Featured image", name: "featuredImage", widget: "image", required: false }
+      - label: "Photos"
+        name: "photos"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Photo", name: "image", widget: "image" }
+          - { label: "Caption", name: "caption", widget: "string", required: false }
+  - name: "school_info"
+    label: "School Information"
+    folder: "content/info"
+    create: false
+    extension: "json"
+    format: "json"
+    fields:
+      - { label: "School name", name: "schoolName", widget: "string" }
+      - { label: "School motto", name: "motto", widget: "string" }
+      - { label: "Principal's message", name: "principalMessage", widget: "text" }
+      - label: "Facilities"
+        name: "facilities"
+        widget: "list"
+        fields:
+          - { label: "Facility name", name: "name", widget: "string" }
+          - { label: "Facility description", name: "description", widget: "text" }
+      - label: "Contact Information"
+        name: "contact"
+        widget: "object"
+        fields:
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Address", name: "address", widget: "text" }
+backend:
+  name: git
+  repo: YOUR_GITHUB_USERNAME/REPO_NAME
+  branch: main
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+publish_mode: editorial_workflow
+collections:
+  - name: "pages"
+    label: "Site Pages"
+    folder: "content/pages"
+    create: true
+    extension: "json"
+    format: "json"
+    fields:
+      - { label: "Page title", name: "title", widget: "string" }
+      - { label: "Meta description", name: "description", widget: "text" }
+      - label: "Hero section"
+        name: "hero"
+        widget: "object"
+        fields:
+          - { label: "Eyebrow text", name: "eyebrow", widget: "string" }
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Primary button text", name: "primaryCta", widget: "string" }
+          - { label: "Secondary button text", name: "secondaryCta", widget: "string" }
+          - { label: "Background image", name: "backgroundImage", widget: "image", required: false }
+      - label: "Intro section"
+        name: "intro"
+        widget: "object"
+        fields:
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Description", name: "text", widget: "text" }
+      - label: "News items"
+        name: "newsItems"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Date", name: "date", widget: "string", required: false }
+          - { label: "Summary", name: "summary", widget: "text" }
+          - { label: "Link text", name: "linkText", widget: "string", required: false }
+          - { label: "Link URL", name: "linkUrl", widget: "string", required: false }
+      - label: "Upcoming events"
+        name: "events"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Date", name: "date", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }

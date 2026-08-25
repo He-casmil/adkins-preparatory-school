@@ -4,71 +4,103 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Learn about Adkins Preparatory School’s mission, values, and modern approach to student success." />
+  <!-- Favicons & PWA -->
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="images/logo.svg" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#1651b9" />
+  <!-- Social / SEO -->
+  <meta property="og:title" content="About | Adkins Preparatory School" />
+  <meta property="og:description" content="Learn about Adkins Preparatory School’s mission, values, and modern approach to student success." />
+  <meta property="og:image" content="images/istockphoto-1423100536-612x612.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About | Adkins Preparatory School" />
+  <meta name="twitter:description" content="Learn about Adkins Preparatory School’s mission, values, and modern approach to student success." />
+  <meta name="twitter:image" content="images/istockphoto-1423100536-612x612.jpg" />
   <title>About | Adkins Preparatory School</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body data-page="about">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="page-header">
     <div class="container header-inner">
       <a class="brand" href="index.html">
         <img src="images/logo.svg" alt="Adkins Preparatory logo" class="logo" />
         Adkins Preparatory
       </a>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
-      <nav class="site-nav" id="siteNav">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
         <a href="index.html">Home</a>
+        <a href="news-events.html">News & Events</a>
         <a href="about.html">About</a>
         <a href="academics.html">Academics</a>
-        <a href="admission.html">Admission</a>
-        <a href="news-events.html">News & Events</a>
+        <a href="school-life.html">School Life</a>
+        <a href="admission.html">Admissions</a>
+        <a href="gallery.html">Gallery</a>
         <a href="contact.html">Contact</a>
-        <a class="button button-alt" href="apply-now.html">Apply Now</a>
       </nav>
     </div>
   </header>
 
-  <main class="container page-content">
+  <main id="main-content" class="container page-content">
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-logo">
+          <img src="images/logo.svg" alt="Adkins Preparatory logo" />
+        </div>
+        <p class="eyebrow" data-cms="hero.eyebrow">Our story</p>
+        <h1 data-cms="hero.heading">A school built on care and character</h1>
+        <p class="hero-copy" data-cms="hero.description">Adkins combines nurturing relationships with disciplined learning so children feel secure, work hard, and grow into responsible young people.</p>
+        <div class="hero-actions">
+          <a class="button" href="contact.html" data-cms="hero.primaryCta">Visit Campus</a>
+          <a class="button button-alt" href="about.html" data-cms="hero.secondaryCta">Read Our Mission</a>
+        </div>
+      </div>
+    </section>
+
     <section class="page-intro">
-      <p class="eyebrow">Our story</p>
-      <h1>About Adkins Preparatory School</h1>
-      <p>Adkins Preparatory School is a welcoming academic community focused on excellence, character, and student growth. Our motto, "Excellence is our commitment," guides every classroom, activity, and school decision.</p>
+      <div class="intro-copy">
+        <h2 data-cms="intro.heading">The Adkins promise</h2>
+        <p data-cms="intro.text">We know that children thrive when adults are caring, consistent, and clear. Lower Primary and Upper Primary combine encouragement with high expectations and guidance that helps learners take responsibility.</p>
+      </div>
     </section>
 
     <section class="info-grid">
       <div>
         <h2>Our Mission</h2>
-        <p>We help students build strong foundations in academics, leadership, and personal responsibility so they are prepared for success in school and beyond.</p>
+        <p>To nurture confident, capable, responsible learners who love learning, contribute positively to their communities, and are prepared for secondary education and beyond.</p>
       </div>
       <div>
         <h2>Our Vision</h2>
-        <p>To be a school where every student is encouraged to pursue their best work, develop confidence, and contribute positively to the world.</p>
+        <p>To be a trusted school where every child is known, valued, and encouraged to pursue excellence; where teaching is purposeful and joyful; and where character and learning grow together.</p>
       </div>
       <div>
         <h2>Our Values</h2>
         <ul>
-          <li>Integrity</li>
-          <li>Respect</li>
-          <li>Curiosity</li>
-          <li>Responsibility</li>
+          <li>Respect and kindness toward ourselves and others</li>
+          <li>Integrity in all our actions</li>
+          <li>Responsibility for our learning and choices</li>
+          <li>Excellence through effort and perseverance</li>
         </ul>
       </div>
     </section>
 
     <section class="feature-section blue-block">
       <h2>What Makes Us Different</h2>
-      <p>Every student receives personalized support from expert teachers. Our school culture emphasizes high expectations, hands-on learning, and activities that build confidence and collaboration.</p>
+        <p>Every child is known by their teachers, who provide personal attention, clear guidance, and encouragement. Our school culture emphasizes high expectations, positive relationships, meaningful learning, and cooperation.</p>
       <div class="feature-cards">
         <article>
           <h3>Experienced Faculty</h3>
-          <p>Highly qualified educators who care about student success.</p>
+          <p>Experienced educators who know each child, model good character, and guide steady academic and personal progress.</p>
         </article>
         <article>
           <h3>Modern Facilities</h3>
-          <p>Classrooms and learning spaces designed for creativity and engagement.</p>
+          <p>Purposeful spaces that support focus, creativity, movement, and discovery.</p>
         </article>
         <article>
           <h3>Community Focus</h3>
-          <p>Supportive relationships with families and students shape a positive environment.</p>
+          <p>We partner with families, keeping communication regular and celebrating shared successes in learning and growth.</p>
         </article>
       </div>
     </section>

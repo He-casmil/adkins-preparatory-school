@@ -1,0 +1,53 @@
+{
+  "title": "News & Events | Adkins Preparatory School",
+  "description": "Stay updated with news, events, and highlights from Adkins Preparatory School.",
+  "hero": {
+    "eyebrow": "Latest news",
+    "heading": "What's happening at Adkins",
+    "description": "Discover classroom moments, community events, student achievements, and school announcements.",
+    "primaryCta": "Read Latest News",
+    "secondaryCta": "Plan a Visit",
+    "backgroundImage": "images/istockphoto-1423100536-612x612.jpg"
+  },
+  "intro": {
+    "heading": "What is happening at Adkins",
+    "text": "Our news and events give families a closer look at learning, character, responsibility, and community life across the school."
+  },
+  "newsItems": [
+    {
+      "title": "Spring Arts Showcase",
+      "date": "May 28, 2026",
+      "summary": "Students presented music, visual art, and drama projects to families and friends in our latest arts celebration.",
+      "linkText": "Read more",
+      "linkUrl": "#"
+    },
+    {
+      "title": "Academic Honors Ceremony",
+      "date": "June 10, 2026",
+      "summary": "We recognized outstanding academic achievement across all grade levels and celebrated student progress.",
+      "linkText": "View highlights",
+      "linkUrl": "#"
+    },
+    {
+      "title": "Summer Learning Camp",
+      "date": "July 5, 2026",
+      "summary": "Registration opens soon for our summer programs focused on STEM, reading, and creative learning.",
+      "linkText": "Register now",
+      "linkUrl": "#"
+    }
+  ],
+  "events": [
+    {
+      "date": "May 28",
+      "description": "Campus Open House"
+    },
+    {
+      "date": "June 10",
+      "description": "Volunteer Community Day"
+    },
+    {
+      "date": "July 5",
+      "description": "Summer Learning Orientation"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "albumName": "School Trips",
+  "albumCategory": "School Trips",
+  "description": "Educational adventures including museum visits, nature trips, historical site exploration, and community excursions that bring learning to life.",
+  "featuredImage": "images/istockphoto-1423100536-612x612.jpg",
+  "photos": [
+    {
+      "image": "images/istockphoto-1423100536-612x612.jpg",
+      "caption": "A school bus prepares for a learning adventure"
+    }
+  ]
+}
