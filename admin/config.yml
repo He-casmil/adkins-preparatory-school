@@ -88,6 +88,8 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Date", name: "date", widget: "string", required: false }
           - { label: "Summary", name: "summary", widget: "text" }
+          - { label: "Image", name: "image", widget: "image", required: false }
+          - { label: "Category", name: "category", widget: "select", required: false, options: ["Announcement","Achievement","Event","Program"] }
           - { label: "Link text", name: "linkText", widget: "string", required: false }
           - { label: "Link URL", name: "linkUrl", widget: "string", required: false }
       - label: "Upcoming events"

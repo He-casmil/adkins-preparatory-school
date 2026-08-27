@@ -18,6 +18,8 @@
       "title": "Spring Arts Showcase",
       "date": "May 28, 2026",
       "summary": "Students presented music, visual art, and drama projects to families and friends in our latest arts celebration.",
+      "image": "images/news/spring-arts.jpg",
+      "category": "Event",
       "linkText": "Read more",
       "linkUrl": "#"
     },
@@ -25,6 +27,8 @@
       "title": "Academic Honors Ceremony",
       "date": "June 10, 2026",
       "summary": "We recognized outstanding academic achievement across all grade levels and celebrated student progress.",
+      "image": "images/news/academic-honors.jpg",
+      "category": "Achievement",
       "linkText": "View highlights",
       "linkUrl": "#"
     },
@@ -32,7 +36,18 @@
       "title": "Summer Learning Camp",
       "date": "July 5, 2026",
       "summary": "Registration opens soon for our summer programs focused on STEM, reading, and creative learning.",
+      "image": "images/news/summer-camp.jpg",
+      "category": "Program",
       "linkText": "Register now",
+      "linkUrl": "#"
+    },
+    {
+      "title": "New Classroom Technology",
+      "date": "Aug 20, 2026",
+      "summary": "Interactive tablets and learning software launched across Lower Primary classes to support personalized learning.",
+      "image": "images/news/new-tech.jpg",
+      "category": "Announcement",
+      "linkText": "Learn more",
       "linkUrl": "#"
     }
   ],
