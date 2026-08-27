@@ -1,3 +1,11 @@
+backend:
+  name: git
+  repo: He-casmil/adkins-preparatory-school
+  branch: main
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+publish_mode: editorial_workflow
+collections:
   - name: "gallery"
     label: "Photo Gallery"
     folder: "content/gallery"
@@ -43,14 +51,6 @@
           - { label: "Phone", name: "phone", widget: "string" }
           - { label: "Email", name: "email", widget: "string" }
           - { label: "Address", name: "address", widget: "text" }
-backend:
-  name: git
-  repo: He-casmil/adkins-preparatory-school
-  branch: main
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
-publish_mode: editorial_workflow
-collections:
   - name: "pages"
     label: "Site Pages"
     folder: "content/pages"
