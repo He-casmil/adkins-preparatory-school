@@ -1,7 +1,12 @@
 {
   "schoolName": "Adkins Preparatory School",
-  "motto": "Where children grow in confidence and responsibility",
+  "motto": "Excellence is our commitment",
   "principalMessage": "Welcome to Adkins Preparatory School. We are committed to nurturing caring, confident, and responsible young learners. Our approach combines warm relationships with high academic standards, creating an environment where every child can flourish.",
+  "learningLevels": [
+    "Preschool",
+    "Primary",
+    "Junior School (Pre-Primary up to Grade 9)"
+  ],
   "facilities": [
     {
       "name": "Modern Classrooms",
@@ -29,8 +34,8 @@
     }
   ],
   "contact": {
-    "phone": "+44 (0)20 7946 0123",
-    "email": "info@adkinsprep.co.uk",
-    "address": "123 School Road, London, England, EC1A 1BB"
+    "phone": "+254 723 604 987 / +254 784 604 859",
+    "email": "adkinspreparatory70@gmail.com",
+    "address": "Kayole One, along Spine Road, Embakasi Central, Nairobi"
   }
 }

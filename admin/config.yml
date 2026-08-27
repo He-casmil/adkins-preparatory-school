@@ -26,6 +26,10 @@
       - { label: "School name", name: "schoolName", widget: "string" }
       - { label: "School motto", name: "motto", widget: "string" }
       - { label: "Principal's message", name: "principalMessage", widget: "text" }
+      - label: "Learning levels"
+        name: "learningLevels"
+        widget: "list"
+        required: false
       - label: "Facilities"
         name: "facilities"
         widget: "list"
