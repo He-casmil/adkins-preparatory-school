@@ -37,16 +37,27 @@ function applyPageContent(data) {
   document.querySelectorAll('[data-cms]').forEach((element) => {
     const value = resolveContentValue(data, element.dataset.cms);
     if (value !== undefined && value !== null) {
-      element.textContent = value;
-    }
-  });
+        if (element.tagName === 'A') {
+          // set href for email or phone links and update text
+          if (typeof value === 'string' && value.includes('@')) {
+            element.href = `mailto:${value}`;
+          } else {
+            const tel = String(value).replace(/[^+\d]/g, '');
+            element.href = `tel:${tel}`;
+          }
+          element.textContent = value;
+        } else {
+          element.textContent = value;
+        }
+      }
+    });
 
-  applyHeroBackground(data);
-  renderNewsItems(data.newsItems);
-  renderEvents(data.events);
-}
+    applyHeroBackground(data);
+    renderNewsItems(data.newsItems);
+    renderEvents(data.events);
+  }
 
-function applyHeroBackground(data) {
+  function applyHeroBackground(data) {
   const hero = document.querySelector('.hero');
   const imageUrl = resolveContentValue(data, 'backgroundImage') || resolveContentValue(data, 'hero.backgroundImage');
   if (!hero || !imageUrl) return;
@@ -115,7 +126,20 @@ if (pageName) {
       }
       return response.json();
     })
-    .then((pageData) => applyPageContent(pageData))
+    .then((pageData) => {
+      // Fetch shared school info (contact, facilities) and merge into page data
+      return fetch('content/info/school.json')
+        .then((r) => {
+          if (!r.ok) return pageData;
+          return r.json().then((info) => {
+            // merge contact under pageData.contact for data-cms="contact.xxx"
+            pageData.contact = info.contact || info;
+            return pageData;
+          });
+        })
+        .catch(() => pageData);
+    })
+    .then((mergedPageData) => applyPageContent(mergedPageData))
     .catch((error) => console.warn(error));
 }
 
