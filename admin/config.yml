@@ -19,7 +19,7 @@
   - name: "school_info"
     label: "School Information"
     folder: "content/info"
-    create: false
+    create: true
     extension: "json"
     format: "json"
     fields:
@@ -41,7 +41,7 @@
           - { label: "Address", name: "address", widget: "text" }
 backend:
   name: git
-  repo: YOUR_GITHUB_USERNAME/REPO_NAME
+  repo: He-casmil/adkins-preparatory-school
   branch: main
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
