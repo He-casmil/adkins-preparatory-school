@@ -72,6 +72,14 @@ collections:
         fields:
           - { label: "Heading", name: "heading", widget: "string" }
           - { label: "Description", name: "text", widget: "text" }
+      - label: "Mission, Vision & Values"
+        name: "mvv"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Mission", name: "mission", widget: "text", required: false }
+          - { label: "Vision", name: "vision", widget: "text", required: false }
+          - { label: "Values", name: "values", widget: "list", required: false }
       - label: "News items"
         name: "newsItems"
         widget: "list"
