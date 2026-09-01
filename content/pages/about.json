@@ -6,7 +6,9 @@
     "heading": "Nurturing confident, curious learners",
     "description": "Adkins combines warm relationships with purposeful learning so children feel secure, work hard, and grow into capable, confident, respectful people.",
     "primaryCta": "Plan Your Visit",
-    "secondaryCta": "Read Our Values"
+    "primaryCtaUrl": "contact.html",
+    "secondaryCta": "Read Our Values",
+    "secondaryCtaUrl": "about.html"
   },
   "intro": {
     "heading": "Excellence through nurture and discipline",

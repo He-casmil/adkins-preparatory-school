@@ -7,7 +7,7 @@
   <!-- Favicons & PWA -->
   <link rel="icon" href="images/logo_adkins-preparatory-school_20260522135716732.jpg" type="image/jpeg" />
   <link rel="apple-touch-icon" href="images/logo_adkins-preparatory-school_20260522135716732.jpg" />
-  <link rel="manifest" href="/manifest.json" />
+  <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#1651b9" />
   <!-- Social / SEO -->
   <meta property="og:title" content="Contact | Adkins Preparatory School" />
@@ -52,8 +52,8 @@
         <h1 data-cms="hero.heading">Contact Us</h1>
         <p class="hero-copy" data-cms="hero.description">We are happy to answer your questions about admission, programs, and campus life. Reach out and our team will respond quickly.</p>
         <div class="hero-actions">
-          <a class="button" href="contact.html" data-cms="hero.primaryCta">Request Information</a>
-          <a class="button button-alt" href="apply-now.html" data-cms="hero.secondaryCta">Apply Now</a>
+          <a class="button" href="contact.html" data-cms="hero.primaryCta" data-cms-url="hero.primaryCtaUrl">Request Information</a>
+          <a class="button button-alt" href="apply-now.html" data-cms="hero.secondaryCta" data-cms-url="hero.secondaryCtaUrl">Apply Now</a>
         </div>
       </div>
     </section>
@@ -68,15 +68,15 @@
     <section class="contact-grid">
       <div class="contact-card">
         <h2>Visit Us</h2>
-        <p>123 Adkins Avenue<br />City, State 12345</p>
+        <p data-cms="contact.address">Kayole One, along Spine Road, Embakasi Central, Nairobi</p>
       </div>
       <div class="contact-card">
         <h2>Call Us</h2>
-        <p>+1 (555) 123-4567</p>
+        <p><a href="tel:+254723604987" data-cms="contact.phone">+254 723 604 987 / +254 784 604 859</a></p>
       </div>
       <div class="contact-card">
         <h2>Email</h2>
-        <p>info@adkinsprep.school</p>
+        <p><a href="mailto:adkinspreparatory70@gmail.com" data-cms="contact.email">adkinspreparatory70@gmail.com</a></p>
       </div>
     </section>
 
@@ -85,11 +85,12 @@
       <p>Complete the form below and a member of our admissions team will contact you with details and next steps.</p>
       <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
         <input type="hidden" name="form-name" value="contact" />
-        <p class="hidden"><label>Don’t fill this out if you’re human:<input name="bot-field" /></label></p>
+        <p class="hidden" aria-hidden="true"><label>Don’t fill this out if you’re human:<input name="bot-field" tabindex="-1" /></label></p>
         <label>Full Name<input type="text" name="name" placeholder="Your name" required /></label>
         <label>Email Address<input type="email" name="email" placeholder="you@example.com" required /></label>
         <label>Phone Number<input type="tel" name="phone" placeholder="(555) 123-4567" /></label>
         <label>Message<textarea name="message" rows="4" placeholder="How can we help you?" required></textarea></label>
+        <p class="form-status" id="contactFormStatus" role="status" aria-live="polite"></p>
         <button class="button" type="submit">Send Inquiry</button>
       </form>
     </section>
@@ -101,8 +102,8 @@
         <p>© 2026 Adkins Preparatory School</p>
       </div>
       <div class="footer-contact">
-        <p>Phone: <a id="footerPhone" data-cms="contact.phone">+44 (0)20 7946 0123</a></p>
-        <p>Email: <a id="footerEmail" data-cms="contact.email">info@adkinsprep.co.uk</a></p>
+        <p>Phone: <a id="footerPhone" data-cms="contact.phone">+254 723 604 987 / +254 784 604 859</a></p>
+        <p>Email: <a id="footerEmail" data-cms="contact.email">adkinspreparatory70@gmail.com</a></p>
       </div>
       <nav>
         <a href="index.html">Home</a>

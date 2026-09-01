@@ -6,7 +6,9 @@
     "heading": "Life at Adkins",
     "description": "A vibrant school community where children discover interests, build friendships, and grow through shared experiences.",
     "primaryCta": "Plan a Visit",
-    "secondaryCta": "View the Gallery"
+    "primaryCtaUrl": "contact.html",
+    "secondaryCta": "View the Gallery",
+    "secondaryCtaUrl": "gallery.html"
   },
   "intro": {
     "heading": "Learning, belonging, and growing together",

@@ -6,7 +6,9 @@
     "heading": "Learning with purpose and joy",
     "description": "Our curriculum is designed to challenge every learner, celebrate individual growth, and develop the confidence and character children need to thrive.",
     "primaryCta": "Explore the Curriculum",
-    "secondaryCta": "Meet Our Teachers"
+    "primaryCtaUrl": "contact.html",
+    "secondaryCta": "Meet Our Teachers",
+    "secondaryCtaUrl": "about.html"
   },
   "intro": {
     "heading": "Two stages, continuous growth",

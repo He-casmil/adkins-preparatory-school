@@ -6,7 +6,9 @@
     "heading": "Join the Adkins community",
     "description": "We welcome families who value nurturing teachers, purposeful learning, good character, and steady growth in confidence and independence.",
     "primaryCta": "Apply Now",
-    "secondaryCta": "Contact Admissions"
+    "primaryCtaUrl": "apply-now.html",
+    "secondaryCta": "Contact Admissions",
+    "secondaryCtaUrl": "contact.html"
   },
   "intro": {
     "heading": "A clear beginning for your family",

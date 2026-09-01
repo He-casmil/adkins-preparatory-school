@@ -6,7 +6,9 @@
     "heading": "Begin your child's journey",
     "description": "Tell us about your child and the stage you are interested in. Our admissions team will follow up with guidance and next steps.",
     "primaryCta": "Submit Application",
-    "secondaryCta": "Contact Admissions"
+    "primaryCtaUrl": "apply-now.html",
+    "secondaryCta": "Contact Admissions",
+    "secondaryCtaUrl": "contact.html"
   },
   "intro": {
     "heading": "Find the right learning stage",

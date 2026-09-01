@@ -28,4 +28,12 @@
     <loc>https://your-domain.example/contact.html</loc>
     <lastmod>2026-08-20</lastmod>
   </url>
+  <url>
+    <loc>https://your-domain.example/gallery.html</loc>
+    <lastmod>2026-08-20</lastmod>
+  </url>
+  <url>
+    <loc>https://your-domain.example/school-life.html</loc>
+    <lastmod>2026-08-20</lastmod>
+  </url>
 </urlset>

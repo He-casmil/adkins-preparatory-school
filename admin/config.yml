@@ -1,9 +1,12 @@
+---
 backend:
-  name: git
+  name: github
   repo: He-casmil/adkins-preparatory-school
   branch: main
+site_url: "https://he-casmil.github.io/adkins-preparatory-school/"
+display_url: "https://he-casmil.github.io/adkins-preparatory-school/"
 media_folder: "images/uploads"
-public_folder: "/images/uploads"
+public_folder: "images/uploads"
 publish_mode: editorial_workflow
 collections:
   - name: "gallery"
@@ -68,7 +71,9 @@ collections:
           - { label: "Heading", name: "heading", widget: "string" }
           - { label: "Description", name: "description", widget: "text" }
           - { label: "Primary button text", name: "primaryCta", widget: "string" }
+          - { label: "Primary button URL", name: "primaryCtaUrl", widget: "string" }
           - { label: "Secondary button text", name: "secondaryCta", widget: "string" }
+          - { label: "Secondary button URL", name: "secondaryCtaUrl", widget: "string" }
           - { label: "Background image", name: "backgroundImage", widget: "image", required: false }
       - label: "Intro section"
         name: "intro"

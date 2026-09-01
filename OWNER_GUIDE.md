@@ -36,6 +36,14 @@ This guide explains how to manage the site content and how to use the CMS setup 
 - News and events text
 - Contact form copy
 
+## Recommended upgrade steps for the CMS
+1. Deploy the site to GitHub Pages or Netlify and confirm the live URL is reachable.
+2. Open the CMS admin at `/admin/index.html` and verify the preview links are using the deployed site URL.
+3. Create or update page content through the CMS instead of editing JSON files directly when possible.
+4. Add a consistent content structure for each page: hero, intro, policy or program sections, news, and contact details.
+5. Review uploaded images and ensure they are stored under `images/uploads` for easy reuse.
+6. Use a staging or review workflow before publishing major updates to the site.
+
 ## What to avoid unless you want a design change
 - Editing `styles.css` unless you want a new look
 - Changing the HTML page structure unless you need a new section

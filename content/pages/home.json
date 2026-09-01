@@ -6,7 +6,9 @@
     "heading": "Where children grow in confidence and responsibility",
     "description": "Through caring teachers, clear expectations, and purposeful learning, Adkins helps children become respectful, capable, and ready for each next step.",
     "primaryCta": "Explore Our Programs",
-    "secondaryCta": "Discover Adkins"
+    "primaryCtaUrl": "admission.html",
+    "secondaryCta": "Discover Adkins",
+    "secondaryCtaUrl": "about.html"
   },
   "intro": {
     "heading": "Strong foundations at every stage",

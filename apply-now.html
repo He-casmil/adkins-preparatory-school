@@ -7,7 +7,7 @@
   <!-- Favicons & PWA -->
   <link rel="icon" href="images/logo_adkins-preparatory-school_20260522135716732.jpg" type="image/jpeg" />
   <link rel="apple-touch-icon" href="images/logo_adkins-preparatory-school_20260522135716732.jpg" />
-  <link rel="manifest" href="/manifest.json" />
+  <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#1651b9" />
   <!-- Social / SEO -->
   <meta property="og:title" content="Apply Now | Adkins Preparatory School" />
@@ -52,8 +52,8 @@
         <h1 data-cms="hero.heading">Apply Now</h1>
         <p class="hero-copy" data-cms="hero.description">Take the next step toward joining Adkins Preparatory School. Complete the application details below and our team will follow up with guidance.</p>
         <div class="hero-actions">
-          <a class="button" href="apply-now.html" data-cms="hero.primaryCta">Submit Application</a>
-          <a class="button button-alt" href="contact.html" data-cms="hero.secondaryCta">Contact Admissions</a>
+          <a class="button" href="apply-now.html" data-cms="hero.primaryCta" data-cms-url="hero.primaryCtaUrl">Submit Application</a>
+          <a class="button button-alt" href="contact.html" data-cms="hero.secondaryCta" data-cms-url="hero.secondaryCtaUrl">Contact Admissions</a>
         </div>
       </div>
     </section>
@@ -68,7 +68,7 @@
     <section class="application-form">
       <form name="application" method="POST" data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="application" />
-        <p class="hidden"><label>Don’t fill this out if you’re human:<input name="bot-field" /></label></p>
+        <p class="hidden" aria-hidden="true"><label>Don’t fill this out if you’re human:<input name="bot-field" tabindex="-1" /></label></p>
         <div class="form-grid">
           <label>Student Name<input type="text" name="student-name" placeholder="Student full name" required /></label>
           <label>Class/Stage<input type="text" name="grade" placeholder="Lower Primary or Upper Primary" required /></label>
@@ -78,6 +78,7 @@
         </div>
         <label>Current School<input type="text" name="current-school" placeholder="Current school name" /></label>
         <label>Tell Us About Your Student<textarea name="student-details" rows="5" placeholder="Share strengths, interests, and goals"></textarea></label>
+        <p class="form-status" id="applicationFormStatus" role="status" aria-live="polite"></p>
         <button class="button" type="submit">Submit Application</button>
       </form>
     </section>
@@ -89,8 +90,8 @@
         <p>© 2026 Adkins Preparatory School</p>
       </div>
       <div class="footer-contact">
-        <p>Phone: <a id="footerPhone" data-cms="contact.phone">+44 (0)20 7946 0123</a></p>
-        <p>Email: <a id="footerEmail" data-cms="contact.email">info@adkinsprep.co.uk</a></p>
+        <p>Phone: <a id="footerPhone" data-cms="contact.phone">+254 723 604 987 / +254 784 604 859</a></p>
+        <p>Email: <a id="footerEmail" data-cms="contact.email">adkinspreparatory70@gmail.com</a></p>
       </div>
       <nav>
         <a href="index.html">Home</a>

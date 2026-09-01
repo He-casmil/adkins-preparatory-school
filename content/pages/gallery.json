@@ -6,7 +6,9 @@
     "heading": "Photo Gallery",
     "description": "Browse moments and memories from across our school community.",
     "primaryCta": "Share Your Photos",
-    "secondaryCta": "Explore School Life"
+    "primaryCtaUrl": "contact.html",
+    "secondaryCta": "Explore School Life",
+    "secondaryCtaUrl": "school-life.html"
   },
   "intro": {
     "heading": "Moments that matter",

@@ -7,7 +7,7 @@
   <!-- Favicons & PWA -->
   <link rel="icon" href="images/logo_adkins-preparatory-school_20260522135716732.jpg" type="image/jpeg" />
   <link rel="apple-touch-icon" href="images/logo_adkins-preparatory-school_20260522135716732.jpg" />
-  <link rel="manifest" href="/manifest.json" />
+  <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#1651b9" />
   <!-- Social / SEO -->
   <meta property="og:title" content="Gallery | Adkins Preparatory School" />
@@ -52,8 +52,8 @@
         <h1>Photo Gallery</h1>
         <p class="hero-copy">Browse moments and memories from across our school community—classrooms in action, sporting triumphs, artistic performances, adventures, and the joy of learning together.</p>
         <div class="hero-actions">
-          <a class="button" href="contact.html">Share Your Photos</a>
-          <a class="button button-alt" href="school-life.html">Explore School Life</a>
+          <a class="button" href="contact.html" data-cms="hero.primaryCta" data-cms-url="hero.primaryCtaUrl">Share Your Photos</a>
+          <a class="button button-alt" href="school-life.html" data-cms="hero.secondaryCta" data-cms-url="hero.secondaryCtaUrl">Explore School Life</a>
         </div>
       </div>
     </section>
@@ -67,41 +67,18 @@
 
     <section class="photo-gallery">
       <h2>Photo Albums</h2>
-      <div class="gallery-albums">
-        <div class="album-card">
-          <img src="images/istockphoto-1222693588-612x612.jpg" alt="Student writing on a classroom chalkboard" />
-          <h3>Classroom Learning</h3>
-          <p>Students engaged in learning, exploring subjects, working together, and discovering new ideas in our classrooms.</p>
-          <a href="#" class="button button-alt">View Album</a>
-        </div>
-        <div class="album-card">
-          <h3>Sports Day</h3>
-          <p>Celebrating athletic achievement, teamwork, and spirited competition at our annual Sports Day event.</p>
-          <a href="#" class="button button-alt">View Album</a>
-        </div>
-        <div class="album-card">
-          <h3>Arts & Music</h3>
-          <p>Creative performances, art exhibitions, musical talent, and cultural celebrations across the school.</p>
-          <a href="#" class="button button-alt">View Album</a>
-        </div>
-        <div class="album-card">
-          <img src="images/istockphoto-1423100536-612x612.jpg" alt="Yellow school bus ready for a school trip" />
-          <h3>School Trips</h3>
-          <p>Field trips, nature walks, educational visits, and adventures that bring learning to life beyond our walls.</p>
-          <a href="#" class="button button-alt">View Album</a>
-        </div>
-        <div class="album-card">
-          <h3>Community Events</h3>
-          <p>School assemblies, cultural celebrations, heritage events, and moments where the entire Adkins community comes together.</p>
-          <a href="#" class="button button-alt">View Album</a>
-        </div>
-        <div class="album-card">
-          <h3>Everyday Moments</h3>
-          <p>The candid, joyful moments—lunch time fun, friendships, play, and the everyday magic of school life.</p>
-          <a href="#" class="button button-alt">View Album</a>
-        </div>
-      </div>
+      <p id="galleryStatus" role="status">Loading albums...</p>
+      <div class="gallery-albums" id="galleryAlbums"></div>
     </section>
+
+    <dialog class="album-dialog" id="albumDialog" aria-labelledby="albumDialogTitle">
+      <div class="album-dialog-header">
+        <h2 id="albumDialogTitle">Album</h2>
+        <button class="button button-alt" id="albumDialogClose" type="button">Close</button>
+      </div>
+      <p id="albumDialogDescription"></p>
+      <div class="photo-grid" id="albumPhotoGrid"></div>
+    </dialog>
   </main>
 
   <footer class="site-footer">
@@ -110,8 +87,8 @@
         <p>© 2026 Adkins Preparatory School</p>
       </div>
       <div class="footer-contact">
-        <p>Phone: <a id="footerPhone" data-cms="contact.phone">+44 (0)20 7946 0123</a></p>
-        <p>Email: <a id="footerEmail" data-cms="contact.email">info@adkinsprep.co.uk</a></p>
+        <p>Phone: <a id="footerPhone" data-cms="contact.phone">+254 723 604 987 / +254 784 604 859</a></p>
+        <p>Email: <a id="footerEmail" data-cms="contact.email">adkinspreparatory70@gmail.com</a></p>
       </div>
       <nav>
         <a href="index.html">Home</a>

@@ -6,7 +6,9 @@
     "heading": "Let's find the right place for your child",
     "description": "We are ready to answer questions about our programs, school life, enrollment, campus visits, and how we support learning and character.",
     "primaryCta": "Request Information",
-    "secondaryCta": "Apply Now"
+    "primaryCtaUrl": "contact.html",
+    "secondaryCta": "Apply Now",
+    "secondaryCtaUrl": "apply-now.html"
   },
   "intro": {
     "heading": "We are here to help",

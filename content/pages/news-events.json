@@ -6,7 +6,9 @@
     "heading": "What's happening at Adkins",
     "description": "Discover classroom moments, community events, student achievements, and school announcements.",
     "primaryCta": "Read Latest News",
+    "primaryCtaUrl": "news-events.html",
     "secondaryCta": "Plan a Visit",
+    "secondaryCtaUrl": "contact.html",
     "backgroundImage": "images/istockphoto-1423100536-612x612.jpg"
   },
   "intro": {
