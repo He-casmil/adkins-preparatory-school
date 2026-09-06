@@ -2,6 +2,13 @@
   "albumName": "Sports Day",
   "albumCategory": "Sports Day",
   "description": "Annual sports celebration featuring races, team competitions, and athletic achievements. A day of excitement, teamwork, and school spirit.",
-  "photos": [],
+  "photos": [
+    {
+      "image": "images/uploads/max-verstappen-1-.jpg"
+    },
+    {
+      "image": "images/uploads/f1-pit-stop.jpg"
+    }
+  ],
   "featuredImage": "images/uploads/f1-🏎️.jpg"
 }
